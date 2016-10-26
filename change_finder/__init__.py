@@ -22,7 +22,7 @@ class SDAR(object):
         A = solve_toeplitz(self.C[:-1], self.C[1:])
         pred = np.dot(A, self.x[1:] - self.mu) + self.mu
         self.sigma = (1.0 - self.r) * self.sigma + self.r * (x - pred)**2
-        return -np.log(norm.pdf(x=x, loc=pred, scale=self.sigma))
+        return -np.log(norm.pdf(x=x, loc=pred, scale=self.sigma**0.5))
 
 
 class ChangeFinder(object):
