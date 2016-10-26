@@ -26,7 +26,7 @@ class SDAR(object):
 
 
 class ChangeFinder(object):
-    def __init__(self, r=0.9, k=10, T=3, R=3):
+    def __init__(self, r=0.005, k=2, T=5, R=2):
         self.first_sdar = SDAR(r, k)
         self.second_sdar = SDAR(r, k)
         self.first_scores = np.zeros(T)
