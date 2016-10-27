@@ -1,5 +1,7 @@
 # Change Finder
 
+[![Build Status](https://travis-ci.org/nel215/change_finder.svg?branch=master)](https://travis-ci.org/nel215/change_finder)
+
 An implementation of the algorithm for detecting outliers and change points from time series data.
 
 # Usage
