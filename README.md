@@ -5,6 +5,12 @@
 
 An implementation of the algorithm for detecting outliers and change points from time series data.
 
+# Installation
+
+```
+pip install change_finder
+```
+
 # Usage
 
 see [example](./example) directory.
