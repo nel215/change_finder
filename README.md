@@ -1,6 +1,7 @@
 # Change Finder
 
 [![Build Status](https://travis-ci.org/nel215/change_finder.svg?branch=master)](https://travis-ci.org/nel215/change_finder)
+[![PyPI](https://img.shields.io/pypi/v/change_finder.svg)](https://pypi.python.org/pypi/change_finder)
 
 An implementation of the algorithm for detecting outliers and change points from time series data.
 
