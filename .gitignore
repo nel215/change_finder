@@ -4,3 +4,6 @@
 __pycache__
 *.swp
 .ipynb_checkpoints
+build/*
+dist/*
+*.egg-info/*

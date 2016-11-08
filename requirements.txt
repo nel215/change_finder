@@ -1,4 +1,6 @@
 apipkg==1.4
+args==0.1.0
+clint==0.5.1
 cycler==0.10.0
 decorator==4.0.10
 entrypoints==0.2.2
@@ -23,6 +25,7 @@ numpy==1.11.2
 pep8==1.7.0
 pexpect==4.2.1
 pickleshare==0.7.4
+pkginfo==1.4.1
 prompt-toolkit==1.0.8
 ptyprocess==0.5.1
 py==1.4.31
@@ -35,11 +38,15 @@ python-dateutil==2.5.3
 pytz==2016.7
 pyzmq==16.0.0
 qtconsole==4.2.1
+requests==2.11.1
+requests-toolbelt==0.7.0
 scipy==0.18.1
 simplegeneric==0.8.1
 six==1.10.0
 terminado==0.6
 tornado==4.4.2
 traitlets==4.3.1
+twine==1.8.1
 wcwidth==0.1.7
+wheel==0.29.0
 widgetsnbextension==1.2.6
