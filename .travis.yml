@@ -7,4 +7,5 @@ install:
   - pip install pytest pytest-pep8
 
 script:
+  - make build
   - make test
