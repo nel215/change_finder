@@ -15,6 +15,8 @@ setup(
         'Environment :: Console',
         'License :: OSI Approved :: Apache Software License',
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3',
     ],
     packages=['change_finder'],
     install_requires=[

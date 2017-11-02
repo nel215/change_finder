@@ -1,8 +1,8 @@
 clean:
-	rm -rf build/ dist/
+	rm -rf build/ dist/ change_finder.egg-info/
 build: clean
-	python setup.py build bdist_wheel
+	python setup.py bdist_wheel --universal
 install:
-	pip install -U .
+	pip install ./dist/*.whl
 test: install
 	py.test --pep8 .
