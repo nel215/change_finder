@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name='change_finder',
-    version='0.0.1',
+    version='0.0.2',
     description='An implementation of the algorithm for detecting outliers and change points from time series data.',  # nopep8
     author='nel215',
     author_email='otomo.yuhei@gmail.com',
