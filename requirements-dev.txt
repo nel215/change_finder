@@ -1,0 +1,5 @@
+jupyter==1.0.0
+pytest==3.0.3
+pytest-pep8==1.0.6
+twine==1.8.1
+wheel==0.29.0
