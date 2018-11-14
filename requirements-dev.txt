@@ -1,0 +1,6 @@
+jupyter==1.0.0
+matplotlib==3.0.2
+pytest==3.10.1
+pytest-pep8==1.0.6
+twine==1.12.1
+wheel==0.29.0
